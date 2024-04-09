@@ -10,13 +10,14 @@ body {
   background-color: hwb(0 8% 92%);
   font-family: Inter;
   font-weight: 400;
+  padding: 2rem 0;
 }
 .container {
   display: grid;
-  grid-template-columns: minmax(auto, 375px);
+  grid-template-columns: minmax(auto, 385px);
   grid-template-rows: auto;
   text-align: center;
-  padding: 0.8rem 1.3rem;
+  padding: 0.5rem 1.3rem;
 }
 .card {
   background-color: hsl(0, 0%, 12%);
@@ -31,34 +32,37 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: white;
-  padding-top: 1.7rem;
+  padding-top: 1.5rem;
 }
 .adress {
   color: hsl(75, 94%, 57%);
   font-size: 0.87rem;
   font-weight: 600;
-  padding-top: 0.31rem;
+  padding-top: 0.6rem;
 }
 .text {
   cursor: default;
 }
 .description {
   color: hwb(0 100% 0%);
-  font-size: 0.75rem;
+  font-size: 0.88rem;
   font-weight: 300;
-  padding-top: 1rem;
+  padding-top: 1.8rem;
 }
 .links {
-  padding-top: 0.75rem;
+  padding-top: 1.6rem;
 }
 .links p {
   background-color: hsl(0, 0%, 20%);
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 10px;
-  font-size: 0.9rem;
+  padding: 0.9rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  font-size: 0.88rem;
   font-weight: 600;
   transition: 0.5s;
+}
+.github p{
+  margin-top: 0;
 }
 .instagram p{
   margin-bottom: 0;
@@ -72,7 +76,7 @@ body {
   color: white;
 }
 .attribution {
-  font-size: 11px;
+  font-size: 0.7rem;
   text-align: center;
   color: white;
   cursor: default;
