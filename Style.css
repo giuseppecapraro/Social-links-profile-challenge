@@ -12,6 +12,9 @@ body {
   font-weight: 400;
   padding: 2rem 0;
 }
+body::-webkit-scrollbar{
+  display: none;
+} 
 .container {
   display: grid;
   grid-template-columns: minmax(auto, 385px);
